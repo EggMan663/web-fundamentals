@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 20px; /* reffers to the spacing first number is the top and bottom, second number is the left and right */
+          /*top right bottom left*/
+    text-align: center;
+}
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+a {
+    font-size: 2em;
+}
+h1 {
+    text-align: center;
+}
+main{
+    text-align: center; /*or margin: 0 auto;*/
+}
+img{
+    width: 45%;
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
