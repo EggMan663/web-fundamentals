@@ -9,9 +9,6 @@ body{
     color: #000;
     font-weight: bold;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
 }
 #hover{
     color: white;
@@ -38,12 +35,10 @@ body{
     margin-bottom: 0%;
 }
 #principles{
-    font-size: 300%;
+    font-size: 2.5em;
     font-weight: bold;
-    width: 100%;
     display: table;
-    padding-left: 35%;
-    padding-right: 25%;
+    margin: 0 auto;
 }
 li{
     padding: .5%
@@ -57,7 +52,7 @@ li{
 }
 #quote2{
     font-family: Darker Grotesque, sans-serif;
-    font-size: 4.5em;
+    font-size: 4em;
     color: white;
     text-align: center;
     padding-left: 35%;
