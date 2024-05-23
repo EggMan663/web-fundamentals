@@ -1,16 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .logo{
     margin: 0 auto;
     width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
 }
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
 nav a{
-    text-align: center;
     color: white;
     text-decoration: none;
     font-size: 1.2em;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #021c2e;
@@ -18,7 +23,6 @@ nav a:hover{
 #navigation{
     background-color: #7aa9b0;
     height: 50px;
-    text-align: center;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -26,11 +30,19 @@ nav a:hover{
 #hero-img{
     width: 100%;
 }
+.home-title{
+    font-family: "Gloria Hallelujah", cursive, "Roboto", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
 .button-box{
     text-align: center;
 }
 main section{
     text-align: center;
+}
+main section img{
+    box-sizing: border-box;
 }
 #background {
     height: 725px;
@@ -38,22 +50,47 @@ main section{
 }
 body{
     background-color:white;
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #021c2e;
     color: white;
+}
+h2{
+    margin: 0;
 }
 
 .book, .maps{
     background-color: #ff8c00;
     text-decoration: none;
     color: black;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .maps:hover{
     background-color: #77aab0;
 }
+.rivers-card, .camping-card, .hiking-card{
+    margin: 200px;
+    
+}
+.card-img{
+    border: 10px solid #021c2e;
+}
 .msg{
     background-color: #77aab0;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p{
+    padding-bottom: 15px;
+}
+footer{
+    padding: 25px 50px;
 }
 footer, p a{
     background-color: #021c2e;
@@ -68,10 +105,14 @@ footer a{
 footer p{
     font-size: 1.2em;
 }
+footer .social img{
+    padding-top: 15px;
+}
 .width{
     width: 80px;
 
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
