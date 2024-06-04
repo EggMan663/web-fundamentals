@@ -28,8 +28,6 @@ nav a{
     color: white;
     text-decoration: none;
     font-size: 1.2em;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 nav a:hover{
     background-color: #021c2e;
@@ -109,9 +107,6 @@ h2{
 }
 .card-img{
     border: 10px solid #021c2e;
-}
-.card-img, .mountains{
-    width: 100%;
 }
 .rapids-card, .camping-card, .rivers-card{
     margin-top: 200px;
