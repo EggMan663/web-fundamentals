@@ -108,6 +108,9 @@ h2{
 .card-img{
     border: 10px solid #021c2e;
 }
+.card-img, .mountains{
+    width: 100%;
+}
 .rapids-card, .camping-card, .rivers-card{
     margin-top: 200px;
     margin-bottom: 200px;
