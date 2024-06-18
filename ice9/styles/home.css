@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+.card{
+    width: 250px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px !important;
+}
+.headerimage{
+    border-start-start-radius: 10px; border-start-end-radius: 10px;
+    width: 100%;
+}
+.text-content{
+    text-align: center;
+}
+.date-posted{
+    font-size: 12px;
+    color: rgb(68, 68, 231);
+    margin-bottom: -20px;
+
+}
+.paragraph{
+    padding: 10%;
+    margin-top: -10px;
+}
+.grid-elements{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-end-start-radius: 10px; border-end-end-radius: 10px;
+ 
+}
+.card-top{
+    text-align: center;
+    margin-top: 5px;
+}
+.card-bottom{
+    margin: -15px;
+    text-align: center;
+    font-size: x-small;
+}
